@@ -703,6 +703,10 @@ header
   }
 }
 
+#conny {
+  height: 85px;
+}
+
 /* 
 ---------------------------------------------
 welcome
@@ -750,6 +754,10 @@ welcome
 
 .javaImg {
   height: 80px;
+}
+
+#expressPic{
+  margin-left: -90px;
 }
 
 @media (max-width: 991px) {
@@ -1373,6 +1381,81 @@ contact
 #li1:hover {
   position: relative;
   transform: scale(2);
+}
+
+@media (orientation: landscape) {
+  #li1 {
+    margin-right: 50px;
+  }
+  .social {
+    margin-left: 339px;`
+  }
+
+  /* body {
+    width: inherit;
+  } */
+}
+
+@media (min-width: 360px) {
+  .mini-box {
+    margin-left: 154px;
+    margin-right: -128px;
+    width: 275px;
+  }
+
+  #contactts {
+    margin-left: 125px;
+  }
+  #tact {
+    margin-bottom: 20px;
+  }
+
+  /* .row {
+    padding-bottom: 0px;
+  } */
+
+  /* #contact-us {
+    padding: 0px;
+  }
+  
+  #tact {
+    padding-bottom: 20px;
+    margin-left: -100px;
+  } */
+}
+@media (orientation: landscape) and (min-width: 640px) {
+  #contactts {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /*body {
+    width: unset;
+  }
+*/
+  .mini-box {
+    margin-left: 36px;
+    /* margin-right: -128px; */
+    width: 400px;
+  }
+  .social {
+    width: 600px;
+    display: flex;
+  }
+  /* .header-area {
+    position: absolute;
+  }
+
+  #contactts {
+    margin-left: 600px;
+    display: grid;
+    grid-template-columns: min-content;
+  }
+   #li1 {
+    margin-left: 60px;
+    margin-right: unset;
+  } */
 }
 
 /* 
